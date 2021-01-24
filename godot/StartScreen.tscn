@@ -32,6 +32,7 @@ margin_left = 439.07
 margin_top = 94.324
 margin_right = 866.07
 margin_bottom = 142.324
+custom_colors/font_color = Color( 0.721569, 0.129412, 0.129412, 1 )
 text = "Hello! My name is Osto and I want to learn about my bones! You look like you have a lot of pumpkin brain cells, want to help me?"
 align = 1
 autowrap = true
@@ -72,10 +73,10 @@ texture_normal = ExtResource( 1 )
 expand = true
 
 [node name="TextureRect" type="TextureRect" parent="."]
-margin_left = 412.0
-margin_top = 54.0
-margin_right = 902.0
-margin_bottom = 172.0
+margin_left = 418.0
+margin_top = 57.0
+margin_right = 908.0
+margin_bottom = 175.0
 texture = ExtResource( 4 )
 expand = true
 [connection signal="pressed" from="imgButton" to="." method="_on_Button_pressed"]
