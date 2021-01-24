@@ -179,9 +179,9 @@ __meta__ = {
 
 [node name="livesBox" type="TextureRect" parent="TextureRect"]
 margin_left = 99.3137
-margin_top = 24.9823
+margin_top = 26.9823
 margin_right = 260.314
-margin_bottom = 90.9823
+margin_bottom = 92.9823
 texture = ExtResource( 5 )
 expand = true
 __meta__ = {
