@@ -23,11 +23,12 @@ __meta__ = {
 }
 
 [node name="nextButton" type="TextureButton" parent="."]
-margin_left = 635.855
-margin_top = 410.36
-margin_right = 935.855
-margin_bottom = 530.36
+margin_left = 682.0
+margin_top = 453.0
+margin_right = 936.0
+margin_bottom = 530.0
 texture_normal = ExtResource( 1 )
+expand = true
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -37,10 +38,10 @@ anchor_left = 0.755
 anchor_top = -1.98
 anchor_right = 0.755
 anchor_bottom = -1.98
-margin_left = -843.68
-margin_top = -122.22
-margin_right = -556.68
-margin_bottom = 386.78
+margin_left = -870.77
+margin_top = -275.54
+margin_right = -539.77
+margin_bottom = 271.46
 rect_pivot_offset = Vector2( 35.2778, -250.711 )
 texture_normal = ExtResource( 2 )
 expand = true
@@ -49,10 +50,10 @@ __meta__ = {
 }
 
 [node name="Label" type="Label" parent="nextButton"]
-margin_left = 60.0
-margin_top = 20.0
-margin_right = 237.0
-margin_bottom = 101.0
+margin_left = 38.5264
+margin_top = -3.12549
+margin_right = 215.526
+margin_bottom = 77.8745
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_colors/font_outline_modulate = Color( 0, 0, 0, 1 )
 custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
@@ -60,12 +61,15 @@ text = "next"
 align = 1
 valign = 1
 uppercase = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="skelsay" type="Label" parent="nextButton"]
-margin_left = -190.0
-margin_top = -344.0
-margin_right = 317.0
-margin_bottom = -210.0
+margin_left = -312.599
+margin_top = -416.688
+margin_right = 235.401
+margin_bottom = -218.688
 text = "Welcome to my classroom. "
 align = 1
 valign = 1
@@ -75,9 +79,9 @@ __meta__ = {
 }
 
 [node name="TextureRect" type="TextureRect" parent="nextButton"]
-margin_left = -216.967
-margin_top = -375.484
-margin_right = 351.033
-margin_bottom = -190.484
+margin_left = -360.251
+margin_top = -424.83
+margin_right = 275.749
+margin_bottom = -186.83
 texture = ExtResource( 4 )
 expand = true

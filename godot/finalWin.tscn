@@ -20,18 +20,21 @@ __meta__ = {
 }
 
 [node name="TextureRect" type="TextureRect" parent="TextureRect"]
-margin_left = 132.415
-margin_top = 20.3716
-margin_right = 888.415
-margin_bottom = 344.372
+margin_left = 92.355
+margin_top = 33.8757
+margin_right = 951.355
+margin_bottom = 357.876
 texture = ExtResource( 1 )
 expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="Label" type="Label" parent="TextureRect/TextureRect"]
-margin_left = 24.0237
-margin_top = 39.3953
-margin_right = 733.024
-margin_bottom = 279.395
+margin_left = 51.7515
+margin_top = 40.9822
+margin_right = 810.751
+margin_bottom = 280.982
 custom_fonts/font = ExtResource( 2 )
 text = "You are an expert on bones! You have a ton of pumpkin brain cells! Thank you for fixing me up"
 align = 1
@@ -39,9 +42,9 @@ valign = 1
 autowrap = true
 
 [node name="homeButton" type="TextureButton" parent="TextureRect"]
-margin_left = 330.536
+margin_left = 298.82
 margin_top = 414.836
-margin_right = 754.536
+margin_right = 722.82
 margin_bottom = 530.836
 texture_normal = ExtResource( 3 )
 expand = true

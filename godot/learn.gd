@@ -5,7 +5,7 @@ var second = preload("res://Osto-Highlighted-Femur.png")
 var third = preload("res://Osto-Highlighted-Mandible.png")
 var arrOfImg = [first, second, third]
 var ctr = 0
-var textWithBones = ["This is my humerus. It is the funniest bone in the body, that connects the shoulder to the elbow.","This is my femur. It is the longest and strongest bone in the body, that connects the hip to the knee.","This is my mandible! It is the lower jawbone, the strongest bone in the human skull."]
+var textWithBones = ["This is my humerus. It is the funniest bone in the body. It connects the shoulder to the elbow.","This is my femur. It is the longest and strongest bone in the body. It connects the hip to the knee.","This is my mandible! It is the lower jawbone and the strongest bone in the human skull."]
 var arr
 func _ready():
 	 get_node("nextButton").connect("pressed", self, "_on_Button_pressed")

@@ -29,10 +29,10 @@ __meta__ = {
 }
 
 [node name="Label" type="Label" parent="."]
-margin_left = 443.0
-margin_top = 75.0
-margin_right = 982.0
-margin_bottom = 308.0
+margin_left = 359.008
+margin_top = 58.0
+margin_right = 946.008
+margin_bottom = 291.0
 custom_fonts/font = ExtResource( 5 )
 custom_colors/font_color = Color( 0.721569, 0.129412, 0.129412, 1 )
 text = "Hello! My name is Osto and I want to learn about my bones! You look like you have a lot of pumpkin brain cells, want to help me?"
@@ -44,10 +44,10 @@ __meta__ = {
 }
 
 [node name="imgButton" type="TextureButton" parent="."]
-margin_left = 626.0
-margin_top = 397.0
-margin_right = 873.0
-margin_bottom = 463.0
+margin_left = 543.409
+margin_top = 398.652
+margin_right = 790.409
+margin_bottom = 464.652
 texture_normal = ExtResource( 3 )
 expand = true
 __meta__ = {
@@ -55,10 +55,10 @@ __meta__ = {
 }
 
 [node name="Label2" type="Label" parent="."]
-margin_left = 624.0
-margin_top = 394.0
-margin_right = 869.0
-margin_bottom = 463.0
+margin_left = 543.061
+margin_top = 397.304
+margin_right = 788.061
+margin_bottom = 466.304
 custom_fonts/font = ExtResource( 5 )
 custom_colors/font_color = Color( 0.788235, 0.254902, 0.0705882, 1 )
 custom_colors/font_outline_modulate = Color( 0.0235294, 0.14902, 0.909804, 1 )
@@ -71,18 +71,24 @@ __meta__ = {
 }
 
 [node name="TextureButton" type="TextureButton" parent="."]
-margin_left = 84.0
-margin_top = 114.0
-margin_right = 412.0
-margin_bottom = 570.0
+margin_left = 5.96368
+margin_top = 26.3036
+margin_right = 333.964
+margin_bottom = 571.304
 texture_normal = ExtResource( 1 )
 expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="TextureRect" type="TextureRect" parent="."]
-margin_left = 421.0
-margin_top = 45.0
-margin_right = 1012.0
-margin_bottom = 338.0
+margin_left = 314.83
+margin_top = 29.0
+margin_right = 999.83
+margin_bottom = 314.0
 texture = ExtResource( 4 )
 expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
 [connection signal="pressed" from="imgButton" to="." method="_on_Button_pressed"]

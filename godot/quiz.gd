@@ -58,6 +58,7 @@ func _on_startButton_pressed():
 func _on_nextButton_pressed():
 	gotCorrect = false
 	ctr = ctr+1
+	$TextureRect/nextButton.hide()
 	if(ctr> 2 && livesCtr<=0):
 		get_tree().change_scene("res://finalDied.tscn")
 	elif(ctr> 2 && livesCtr>0):

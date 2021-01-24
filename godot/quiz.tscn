@@ -24,10 +24,10 @@ __meta__ = {
 }
 
 [node name="Choice2Box" type="TextureButton" parent="TextureRect"]
-margin_left = 450.715
-margin_top = 411.561
-margin_right = 671.715
-margin_bottom = 498.561
+margin_left = 371.425
+margin_top = 398.668
+margin_right = 592.425
+margin_bottom = 485.668
 texture_normal = ExtResource( 1 )
 expand = true
 __meta__ = {
@@ -47,10 +47,10 @@ __meta__ = {
 }
 
 [node name="Choice3Box" type="TextureButton" parent="TextureRect"]
-margin_left = 771.025
-margin_top = 297.783
-margin_right = 992.025
-margin_bottom = 384.783
+margin_left = 707.593
+margin_top = 295.801
+margin_right = 928.593
+margin_bottom = 382.801
 texture_normal = ExtResource( 1 )
 expand = true
 __meta__ = {
@@ -70,10 +70,10 @@ __meta__ = {
 }
 
 [node name="Choice4Box" type="TextureButton" parent="TextureRect"]
-margin_left = 771.025
-margin_top = 411.56
-margin_right = 992.025
-margin_bottom = 498.56
+margin_left = 701.646
+margin_top = 397.684
+margin_right = 922.646
+margin_bottom = 484.684
 texture_normal = ExtResource( 1 )
 expand = true
 __meta__ = {
@@ -93,9 +93,9 @@ __meta__ = {
 }
 
 [node name="Choice1Box" type="TextureButton" parent="TextureRect"]
-margin_left = 451.952
+margin_left = 372.662
 margin_top = 299.02
-margin_right = 672.951
+margin_right = 593.661
 margin_bottom = 386.02
 texture_normal = ExtResource( 1 )
 expand = true
@@ -116,15 +116,18 @@ __meta__ = {
 }
 
 [node name="osto" type="TextureButton" parent="TextureRect"]
-margin_left = 6.0
-margin_top = 32.0
-margin_right = 322.0
-margin_bottom = 561.0
+margin_left = 36.0355
+margin_top = 108.089
+margin_right = 324.036
+margin_bottom = 575.089
 texture_normal = ExtResource( 3 )
 expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="questionBorder" type="TextureButton" parent="TextureRect"]
-margin_left = 444.0
+margin_left = 321.0
 margin_top = 27.0
 margin_right = 995.0
 margin_bottom = 282.0
@@ -135,20 +138,23 @@ __meta__ = {
 }
 
 [node name="questionTextBox" type="Label" parent="TextureRect"]
-margin_left = 461.0
+margin_left = 348.0
 margin_top = 43.0
 margin_right = 975.0
 margin_bottom = 253.0
-text = "Now that you learned, it's time to quiz you!"
+text = "Now that you've learned about some bones, it's time for a quiz!"
 align = 1
 valign = 1
 autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="startButton" type="TextureButton" parent="TextureRect"]
-margin_left = 613.0
-margin_top = 355.261
-margin_right = 857.0
-margin_bottom = 454.261
+margin_left = 529.746
+margin_top = 349.314
+margin_right = 773.746
+margin_bottom = 448.314
 texture_normal = ExtResource( 1 )
 expand = true
 __meta__ = {
@@ -172,10 +178,10 @@ __meta__ = {
 }
 
 [node name="livesBox" type="TextureRect" parent="TextureRect"]
-margin_left = 213.839
-margin_top = 29.5406
-margin_right = 434.839
-margin_bottom = 97.5406
+margin_left = 99.3137
+margin_top = 24.9823
+margin_right = 260.314
+margin_bottom = 90.9823
 texture = ExtResource( 5 )
 expand = true
 __meta__ = {
@@ -183,10 +189,10 @@ __meta__ = {
 }
 
 [node name="nextButton" type="TextureButton" parent="TextureRect"]
-margin_left = 603.643
-margin_top = 505.532
-margin_right = 822.643
-margin_bottom = 592.532
+margin_left = 540.211
+margin_top = 497.603
+margin_right = 759.211
+margin_bottom = 584.603
 texture_normal = ExtResource( 1 )
 expand = true
 

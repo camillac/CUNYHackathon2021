@@ -91,9 +91,12 @@ autowrap = true
 uppercase = true
 
 [node name="TextureRect2" type="TextureRect" parent="TextureRect"]
-margin_left = 59.6154
-margin_top = 277.505
-margin_right = 491.615
-margin_bottom = 567.505
+margin_left = 79.4379
+margin_top = 271.558
+margin_right = 511.437
+margin_bottom = 561.558
 texture = ExtResource( 5 )
 expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}

@@ -23,18 +23,33 @@ __meta__ = {
 }
 
 [node name="TextureRect" type="TextureRect" parent="TextureRect"]
-margin_left = -267.0
-margin_top = -5.0
-margin_right = 1339.0
-margin_bottom = 604.0
+margin_left = -28.8451
+margin_top = 575.296
+margin_right = 1072.15
+margin_bottom = 835.296
+rect_pivot_offset = Vector2( 542.169, 19.6909 )
 texture = ExtResource( 4 )
 expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect2" type="TextureRect" parent="TextureRect"]
+margin_left = -20.0
+margin_top = -206.0
+margin_right = 1063.0
+margin_bottom = 32.0
+texture = ExtResource( 4 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="Logo" type="TextureRect" parent="."]
-margin_left = 250.973
-margin_top = 77.3225
-margin_right = 799.973
-margin_bottom = 342.322
+margin_left = 306.302
+margin_top = 155.008
+margin_right = 746.302
+margin_bottom = 351.008
 texture = ExtResource( 1 )
 expand = true
 __meta__ = {
@@ -42,10 +57,10 @@ __meta__ = {
 }
 
 [node name="startButtonHome" type="TextureButton" parent="."]
-margin_left = 327.33
-margin_top = 391.53
-margin_right = 720.33
-margin_bottom = 514.53
+margin_left = 422.156
+margin_top = 378.0
+margin_right = 629.156
+margin_bottom = 435.0
 texture_normal = ExtResource( 3 )
 expand = true
 __meta__ = {
@@ -57,12 +72,15 @@ anchor_left = -0.709
 anchor_top = -0.457
 anchor_right = -0.709
 anchor_bottom = -0.457
-margin_left = 361.368
-margin_top = 85.6741
-margin_right = 595.368
-margin_bottom = 160.674
+margin_left = 172.279
+margin_top = 28.2651
+margin_right = 333.279
+margin_bottom = 81.2651
 custom_fonts/font = ExtResource( 2 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 text = "START!"
 align = 1
 valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
