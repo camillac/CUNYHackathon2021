@@ -1,0 +1,79 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://CartoonSkeleton.jpg" type="Texture" id=1]
+[ext_resource path="res://StartScreen.gd" type="Script" id=2]
+
+[sub_resource type="Gradient" id=1]
+offsets = PoolRealArray(  )
+colors = PoolColorArray(  )
+
+[sub_resource type="GradientTexture" id=2]
+gradient = SubResource( 1 )
+
+[sub_resource type="Gradient" id=3]
+offsets = PoolRealArray( 0 )
+colors = PoolColorArray( 1, 1, 1, 1 )
+
+[sub_resource type="GradientTexture" id=4]
+gradient = SubResource( 3 )
+width = 200
+
+[node name="BackgroundTextRect" type="TextureRect"]
+light_mask = 0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -1.73859
+margin_top = 1.38038
+margin_right = 3.26147
+margin_bottom = 0.380371
+texture = SubResource( 2 )
+expand = true
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+margin_left = 281.07
+margin_top = 126.324
+margin_right = 708.07
+margin_bottom = 174.324
+text = "Hello! My name is Osto and I want to learn about my bones! You look like you have a lot of pumpkin brain cells, want to help me?"
+align = 1
+autowrap = true
+uppercase = true
+
+[node name="imgButton" type="TextureButton" parent="."]
+margin_left = 626.0
+margin_top = 397.0
+margin_right = 873.0
+margin_bottom = 463.0
+texture_normal = SubResource( 4 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label2" type="Label" parent="."]
+margin_left = 627.0
+margin_top = 395.0
+margin_right = 872.0
+margin_bottom = 464.0
+custom_colors/font_color = Color( 0.0784314, 0.278431, 0.85098, 1 )
+custom_colors/font_outline_modulate = Color( 0.0235294, 0.14902, 0.909804, 1 )
+text = "Start"
+align = 1
+valign = 1
+uppercase = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureButton" type="TextureButton" parent="."]
+margin_left = 75.4507
+margin_top = 215.465
+margin_right = 329.451
+margin_bottom = 479.465
+texture_normal = ExtResource( 1 )
+expand = true
+[connection signal="pressed" from="imgButton" to="." method="_on_Button_pressed"]
