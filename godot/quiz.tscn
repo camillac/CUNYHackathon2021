@@ -21,7 +21,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="TextureButton2" type="TextureButton" parent="TextureRect"]
+[node name="Choice2Box" type="TextureButton" parent="TextureRect"]
 margin_left = 445.768
 margin_top = 385.59
 margin_right = 666.768
@@ -32,7 +32,19 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="TextureButton3" type="TextureButton" parent="TextureRect"]
+[node name="Choice2" type="Label" parent="TextureRect/Choice2Box"]
+margin_left = 48.469
+margin_top = 17.555
+margin_right = 170.469
+margin_bottom = 69.555
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Choice3Box" type="TextureButton" parent="TextureRect"]
 margin_left = 738.87
 margin_top = 258.208
 margin_right = 959.87
@@ -43,7 +55,19 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="TextureButton4" type="TextureButton" parent="TextureRect"]
+[node name="Choice3" type="Label" parent="TextureRect/Choice3Box"]
+margin_left = 49.706
+margin_top = 17.555
+margin_right = 171.706
+margin_bottom = 69.555
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Choice4Box" type="TextureButton" parent="TextureRect"]
 margin_left = 750.001
 margin_top = 378.169
 margin_right = 971.001
@@ -54,7 +78,19 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="TextureButton" type="TextureButton" parent="TextureRect"]
+[node name="Choice4" type="Label" parent="TextureRect/Choice4Box"]
+margin_left = 50.942
+margin_top = 17.556
+margin_right = 172.942
+margin_bottom = 69.556
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Choice1Box" type="TextureButton" parent="TextureRect"]
 margin_left = 440.821
 margin_top = 259.445
 margin_right = 661.821
@@ -65,7 +101,19 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="TextureButton5" type="TextureButton" parent="TextureRect"]
+[node name="Choice1" type="Label" parent="TextureRect/Choice1Box"]
+margin_left = 52.179
+margin_top = 17.555
+margin_right = 174.179
+margin_bottom = 69.555
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="osto" type="TextureButton" parent="TextureRect"]
 margin_left = 6.0
 margin_top = 32.0
 margin_right = 322.0
@@ -73,7 +121,7 @@ margin_bottom = 561.0
 texture_normal = ExtResource( 3 )
 expand = true
 
-[node name="TextureButton6" type="TextureButton" parent="TextureRect"]
+[node name="questionBorder" type="TextureButton" parent="TextureRect"]
 margin_left = 413.0
 margin_top = 29.0
 margin_right = 969.0
@@ -81,7 +129,7 @@ margin_bottom = 179.0
 texture_normal = ExtResource( 4 )
 expand = true
 
-[node name="Label" type="Label" parent="TextureRect"]
+[node name="questionTextBox" type="Label" parent="TextureRect"]
 margin_left = 433.0
 margin_top = 48.0
 margin_right = 947.0
@@ -89,27 +137,29 @@ margin_bottom = 164.0
 text = "Now that you learned, it's time to quiz you!"
 align = 1
 valign = 1
+autowrap = true
 
-[node name="Label2" type="Label" parent="TextureRect"]
-margin_left = 493.0
-margin_top = 277.0
-margin_right = 615.0
-margin_bottom = 329.0
+[node name="startButton" type="TextureButton" parent="TextureRect"]
+margin_left = 595.266
+margin_top = 508.29
+margin_right = 811.266
+margin_bottom = 579.29
+texture_normal = ExtResource( 1 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
-[node name="Label3" type="Label" parent="TextureRect"]
-margin_left = 494.237
-margin_top = 403.145
-margin_right = 616.237
-margin_bottom = 455.145
-
-[node name="Label4" type="Label" parent="TextureRect"]
-margin_left = 800.943
-margin_top = 395.725
-margin_right = 922.943
-margin_bottom = 447.725
-
-[node name="Label5" type="Label" parent="TextureRect"]
-margin_left = 788.576
-margin_top = 275.763
-margin_right = 910.576
-margin_bottom = 327.763
+[node name="startText" type="Label" parent="TextureRect/startButton"]
+margin_left = 35.8938
+margin_top = 14.4734
+margin_right = 174.894
+margin_bottom = 59.4734
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "CLick here to begin"
+align = 1
+valign = 1
+uppercase = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
