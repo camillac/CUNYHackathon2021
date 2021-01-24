@@ -29,15 +29,19 @@ __meta__ = {
 }
 
 [node name="Label" type="Label" parent="."]
-margin_left = 439.07
-margin_top = 94.324
-margin_right = 866.07
-margin_bottom = 142.324
+margin_left = 443.0
+margin_top = 75.0
+margin_right = 982.0
+margin_bottom = 308.0
+custom_fonts/font = ExtResource( 5 )
 custom_colors/font_color = Color( 0.721569, 0.129412, 0.129412, 1 )
 text = "Hello! My name is Osto and I want to learn about my bones! You look like you have a lot of pumpkin brain cells, want to help me?"
 align = 1
 autowrap = true
 uppercase = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="imgButton" type="TextureButton" parent="."]
 margin_left = 626.0
@@ -75,10 +79,10 @@ texture_normal = ExtResource( 1 )
 expand = true
 
 [node name="TextureRect" type="TextureRect" parent="."]
-margin_left = 418.0
-margin_top = 57.0
-margin_right = 908.0
-margin_bottom = 175.0
+margin_left = 421.0
+margin_top = 45.0
+margin_right = 1012.0
+margin_bottom = 338.0
 texture = ExtResource( 4 )
 expand = true
 [connection signal="pressed" from="imgButton" to="." method="_on_Button_pressed"]

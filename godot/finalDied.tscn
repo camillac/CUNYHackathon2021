@@ -1,0 +1,99 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://bone-main-textbox.png" type="Texture" id=1]
+[ext_resource path="res://comicBold.tres" type="DynamicFont" id=2]
+[ext_resource path="res://bone-textbox-cracked.png" type="Texture" id=3]
+[ext_resource path="res://finalDied.gd" type="Script" id=4]
+[ext_resource path="res://death-screen.png" type="Texture" id=5]
+
+[sub_resource type="Gradient" id=1]
+offsets = PoolRealArray(  )
+colors = PoolColorArray(  )
+
+[sub_resource type="GradientTexture" id=2]
+gradient = SubResource( 1 )
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource( 4 )
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_left = 2.74957
+margin_top = 1.37476
+margin_right = 1031.75
+margin_bottom = 601.375
+texture = SubResource( 2 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="TextureRect"]
+margin_left = 115.765
+margin_top = 45.1361
+margin_right = 905.765
+margin_bottom = 245.136
+texture = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="TextureRect/TextureRect"]
+margin_left = 22.0
+margin_top = 15.0
+margin_right = 763.0
+margin_bottom = 179.0
+custom_fonts/font = ExtResource( 2 )
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+text = "Oh no! Osto fell apart!
+Looks like you need more pumpkin brain cells!"
+align = 1
+valign = 1
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="practiceButton" type="TextureButton" parent="TextureRect"]
+margin_left = 561.75
+margin_top = 357.627
+margin_right = 905.75
+margin_bottom = 482.627
+texture_normal = ExtResource( 3 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="TextureRect/practiceButton"]
+margin_left = 9.0
+margin_top = 21.0
+margin_right = 176.0
+margin_bottom = 109.0
+custom_fonts/font = ExtResource( 2 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "Back to "
+align = 1
+valign = 1
+autowrap = true
+uppercase = true
+
+[node name="Label2" type="Label" parent="TextureRect/practiceButton"]
+margin_left = 174.0
+margin_top = 20.0
+margin_right = 328.0
+margin_bottom = 106.0
+custom_fonts/font = ExtResource( 2 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "class"
+align = 1
+valign = 1
+autowrap = true
+uppercase = true
+
+[node name="TextureRect2" type="TextureRect" parent="TextureRect"]
+margin_left = 59.6154
+margin_top = 277.505
+margin_right = 491.615
+margin_bottom = 567.505
+texture = ExtResource( 5 )
+expand = true
