@@ -19,6 +19,10 @@ config/name="Godot"
 run/main_scene="res://StartScreen.tscn"
 config/icon="res://icon.png"
 
+[gui]
+
+theme/custom_font="res://comicBold.tres"
+
 [rendering]
 
 environment/default_environment="res://default_env.tres"
